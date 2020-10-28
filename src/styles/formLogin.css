@@ -1,0 +1,18 @@
+#logindiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    height: 780px;
+    width: 100%;
+}
+
+#registerdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 800px;
+}
