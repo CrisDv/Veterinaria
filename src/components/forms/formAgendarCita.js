@@ -12,21 +12,21 @@ class AgendarCitaForm extends Component
                 <div className="col">
                 <input type="text" className="form-control" placeholder="First name"/>
                 </div>
-                <div class="col">
+                <div className="col">
                 <input type="text" className="form-control" placeholder="Last name"/>
                 </div>
             </div>
-                <div clasName="form-group">
-                    <label for="inputNumber">Numero de contacto</label>
+                <div className="form-group">
+                    <label htmlFor="inputNumber">Numero de contacto</label>
                     <input type="text" className="form-control" id="inputNumber" placeholder="0000000"/>
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-4">
-                    <label for="inputCity">Ciudad</label>
+                    <label htmlFor="inputCity">Ciudad</label>
                     <input type="text" className="form-control" id="inputCity" placeholder="Ciudad..."/>
                     </div>
                     <div className="form-group col-md-4">
-                    <label for="inpPet">Tipo de mascota</label>
+                    <label htmlFor="inpPet">Tipo de mascota</label>
                     <select id="inpPet" className="form-control">
                         <option selected>Perro</option>
                         <option>Gato</option>
@@ -35,7 +35,7 @@ class AgendarCitaForm extends Component
                     </select>
                     </div>
                     <div className="form-group col-md-4">
-                    <label for="inpRaza">Raza</label>
+                    <label htmlFor="inpRaza">Raza</label>
                     <input type="text" className="form-control" id="inpRaza" placeholder="Ej: Pitbull"/>
                     </div>
                 </div>

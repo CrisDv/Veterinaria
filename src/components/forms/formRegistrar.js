@@ -36,7 +36,7 @@ export default class formRegistrar extends Component {
             <input type="text" class="form-control" id="inputCity" />
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button  class="btn btn-primary">
           REGISTRAR
         </button>
       </form>

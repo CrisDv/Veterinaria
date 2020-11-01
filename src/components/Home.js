@@ -13,8 +13,8 @@ class Home extends Component {
 
     render() 
     {return (
-        <div className="container-fluid  animated fadeIn">
-            <div className="row">
+        <div className="container-fluid  animated fadeIn" style={{marginLeft:"10px", marginRight:"10px", marginTop:"10px"}}>
+            <div className="row"  >
             <img
             id="ImagenForm"
             className="col-12 col-md-6"
@@ -25,24 +25,25 @@ class Home extends Component {
                 <FormuAgendarCita />
             </div>
         </div>
+        
             <div className="container-fluid" id="cardsgroup">
                 <div className="row">
                     <div className="card  hvr-fade col-12 col-md-6 col-lg-4">
-                        <img  src={Beagle} alt="..." width="550" height="300"/>
+                        <img  src={Beagle} alt="..." height="300px" style={{width:"100%"}}/>
                         <div className="card-body">
                             <h5 className="card-title">title</h5>
                             <p className="card-text">1234567</p>
                         </div>
                     </div>
                     <div className="card hvr-fade col-12 col-md-6 col-lg-4">
-                        <img src={gato} alt="..." width="540" height="300"/>  nb
+                        <img src={gato} alt="..." height="300px" style={{width:"100%"}} />
                         <div className="card-body">
                             <h5 className="card-title">title</h5>
                             <p className="card-text">asdasdasd</p>
                         </div>
                     </div>
                     <div className="card hvr-fade col-12 col-md-6 col-lg-4">
-                        <img src={loro} alt="..." width="540" height="300"/>
+                        <img src={loro} alt="..." height="300px" style={{width:"100%"}}/>
                         <div className="card-body">
                             <h5 className="card-title">title</h5>
                             <p className="card-text">asdasdasd</p>

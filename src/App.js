@@ -9,6 +9,7 @@ import '@material-ui/core'
 import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Login from './components/Login'
+import Razas from './components/Razas';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" component={Navigation}/>
       <Route path="/" exact component={Home}/>
       <Route path="/Login" component={Login}/>
+      <Route path="/listaderazas" component={Razas}/>
     </Router>
   );
 }

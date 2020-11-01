@@ -20,7 +20,7 @@ class Navigation extends Component {
                 <div className="collapse navbar-collapse" id="navCollapse">
                     <div className="navbar-nav ml-auto">
                         <Link className="nav-item nav-link" to="">Home</Link>
-                        <Link className="nav-item nav-link" to="/">Lista de Razas</Link>
+                        <Link className="nav-item nav-link" to="/listaderazas">Lista de Razas</Link>
                         <Link className="nav-item nav-link" to="/">Enfermedades Comunes</Link>
                         <Link to="/Login"><button className="btn btn-success">Inicia Sesion</button></Link>
                     </div>
