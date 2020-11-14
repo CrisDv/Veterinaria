@@ -12,7 +12,8 @@ export default class Razas extends Component {
         const LP=await Axios.get('https://api.thedogapi.com/v1/breeds',
         {
             headers:
-            {
+            { 
+                
                 "Content-Type":"application/json",
                 "x-api-key":"d3f4f21a-f976-42d1-be69-a207edbae1cb"
             }
